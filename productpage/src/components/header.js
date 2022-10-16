@@ -11,8 +11,8 @@ export default function Header() {
         <li>Contact</li>
       </ul>
       <div className="search">
-        <FaSearch />
-        <FaShoppingBasket />
+        <FaSearch className="fa" />
+        <FaShoppingBasket className="fa" />
       </div>
     </nav>
   );
