@@ -5,8 +5,8 @@ export default function Footer() {
     <div className="footer">
       <p>copyright @2022</p>
       <div className="social">
-        <FaFacebook />
-        <FaInstagram />
+        <FaFacebook className="fa" />
+        <FaInstagram className="fa" />
       </div>
     </div>
   );
