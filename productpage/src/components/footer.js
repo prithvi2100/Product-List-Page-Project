@@ -1,4 +1,13 @@
 import React from "react";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 export default function Footer() {
-  return <div>Footer</div>;
+  return (
+    <div className="footer">
+      <p>copyright @2022</p>
+      <div className="social">
+        <FaFacebook />
+        <FaInstagram />
+      </div>
+    </div>
+  );
 }
