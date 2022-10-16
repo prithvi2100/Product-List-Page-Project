@@ -1,9 +1,14 @@
 import React from "react";
 import product_card from "../data/product_data";
+import { useState, useEffect } from "react";
+import Popup from "./popup";
 
+const Sort = ({ listItem }) => {};
 const MainContent = () => {
   console.log(product_card);
-  const listItems = product_card.map((item) => (
+  const pricesort = [...product_card].sort((a, b) => a.price - b.price);
+  const pricesortd = [...product_card].sort((a, b) => b.price - a.price);
+  const listItems = pricesortd.map((item) => (
     <div className="card" key={item.id}>
       <div className="card_img">
         <img src={item.thumb} />

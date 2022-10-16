@@ -194,4 +194,5 @@ nav .search .fa + .fa {
   letter-spacing: 3px;
   background-color: #4b3944;
   border-radius: 15px;
+  cursor: pointer;
 }
