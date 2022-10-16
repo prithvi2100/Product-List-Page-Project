@@ -174,3 +174,17 @@ nav .search .fa + .fa {
 .footer .social .fa + .fa {
   margin-left: 15px;
 }
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  background: url("D:\Product List Page\productpage\public\images\starry.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner h2 {
+  color: #f6ffd9;
+  font-size: 32px;
+  letter-spacing: 4px;
+}
