@@ -188,3 +188,10 @@ nav .search .fa + .fa {
   font-size: 32px;
   letter-spacing: 4px;
 }
+.popup {
+  position: fixed;
+  height: 65px;
+  letter-spacing: 3px;
+  background-color: #4b3944;
+  border-radius: 15px;
+}

@@ -1,6 +1,10 @@
 import React from "react";
-import { FaSearch, FaShoppingBasket } from "react-icons/fa";
+import { FaSearch, FaShoppingBasket, FaSort } from "react-icons/fa";
+import Popup from "./popup";
+import { useState } from "react";
+
 export default function Header() {
+  const [popupState, setPopupState] = useState(false);
   return (
     <nav>
       <div className="logo">Electronics</div>
@@ -13,6 +17,10 @@ export default function Header() {
       <div className="search">
         <FaSearch className="fa" />
         <FaShoppingBasket className="fa" />
+        <FaSort className="fa" onClick={() => setPopupState(!popupState)} />
+        <Popup trigger={popupState}>
+          <h3>ho</h3>
+        </Popup>
       </div>
     </nav>
   );
