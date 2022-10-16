@@ -22,7 +22,7 @@ const MainContent = () => {
 
   return (
     <div className="main_content">
-      <h3>Plushies</h3>
+      <h3>Watches</h3>
       {listItems}
     </div>
   );

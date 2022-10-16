@@ -3,7 +3,7 @@ import { FaSearch, FaShoppingBasket } from "react-icons/fa";
 export default function Header() {
   return (
     <nav>
-      <div className="logo">Anime.</div>
+      <div className="logo">Electronics</div>
       <ul>
         <li>Home</li>
         <li>Our Products</li>
