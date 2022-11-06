@@ -19,7 +19,7 @@ export default function Header() {
         <FaShoppingBasket className="fa" />
         <FaSort className="fa" onClick={() => setPopupState(!popupState)} />
         <Popup trigger={popupState}>
-          <h3>ho</h3>
+          <h3>Popup</h3>
         </Popup>
       </div>
     </nav>
