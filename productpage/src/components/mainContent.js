@@ -5,7 +5,9 @@ import Popup from "./popup";
 
 const Sort = ({ listItem }) => {};
 const MainContent = () => {
-  console.log(product_card);
+  // console.log(product_card);
+  const collection = document.getElementsByClassName("why");
+  console.log(collection);
   const pricesort = [...product_card].sort((a, b) => a.price - b.price);
   const pricesortd = [...product_card].sort((a, b) => b.price - a.price);
   const listItems = pricesortd.map((item) => (
